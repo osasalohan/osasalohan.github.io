@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<script src="https://kit.fontawesome.com/2467f35223.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+	
+    <title>Osarumen Alohan</title>
+</head>
+<body>
+	
+	<div class="container">
+	
+		<nav class="nav navbar navbar-expand-lg navbar-light mx-5">
+			<a class="navbar-brand py-0" href="/"><i class="fas fa-circle-notch"></i></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active mr-4">
+						<a class="nav-link nav-about py-0" href="#about">About</a>
+					 </li>
+					 <li class="nav-item active mr-4">
+						<a class="nav-link nav-projects py-0" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link nav-contact py-0" href="#contact">Contact</a>
+					</li>
+					<li class="scrollTop"><a href="#"><span class="entypo-up-open"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+		
+	<div class="jumbotron jumbotron-fluid">
+		<div class="text-center welcome py-5">
+			<h3>Hi, I'm Osas...</h3>
+			<div id="typed-strings">
+				<p>Welcome to my portfolio page</p>
+				<p>Thanks for stopping by!</p>
+			</div>
+			<span id="typed"></span>
+			<p class="lead"><a class="btn btn-primary btn-lg mt-2" target="_blank" href="https://twitter.com/messages/compose?recipient_id=927347125448568837" role="button">ASK ME ANYTHING</a></p>
+		</div>
+	</div>
+		
+	<div class="container">
+		<div id="about" class="section">
+			<div class="d-flex justify-content-center">
+				<h2 class="heading">about</h2>
+				<div class="line">
+					<img src="https://i.imgur.com/j18UOJe.png" title="source: pexels.com" />
+				</div>
+			</div>
+			<div class="row m-5">
+				<div class="col-md-6 mb-4 mb-md-0 text-center">
+					<img src="https://i.imgur.com/am18Xvv.jpg" class="img-fluid" alt="Osas">
+				</div>
+				<div class="col-md-6 statement">
+					<p>I am a budding full-stack developer who has been coding for <span id="codingSince"></span> days now, and counting. So far, I have become reasonably versed in HTML, CSS, Javascript, Node.js, Express, MongoDB, Git and Github among others.</p>
+					<p>I am currently learning to write code in Python as well as build applications with React and Redux.</p>
+					<p>Most of my time not spent coding is usually shared between playing chess, FUT, reading fiction novels and cackling to jokes on twitter.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="projects" class="section">
+			<div class="mb-4 d-flex justify-content-center">
+				<h2 class="heading">projects</h2>
+				<div class="line">
+					<img src="https://i.imgur.com/j18UOJe.png" title="source: imgur.com" />
+				</div>
+			</div>
+			<div class="text-center mb-4">
+				<h3>Here are a few projects I've worked on</h3>
+				<p>I'm looking to improve this section in the coming days.</p>
+			</div>
+			<div class="row m-5">
+				<div class="col-md-6 my-4">
+					<h3><a href="#">Yelp Camp</a></h3>
+					<p>A full-stack Yelp clone built with Node.js, Express, Mongo, Mongoose, Passport and Bootstrap</p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/QvAWt9Y.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/YelpCamp">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-4">
+					<h3><a href="#">Museum of Candy</a></h3>
+					<p>Responisve front-end design made with Bootstrap and vanilla Javascript</p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/KBJAwP9.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/CandyMuseum">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-4">
+					<h3><a href="#">Somii</a></h3>
+					<p>Simple twitter bot built with Node.js, Twit and Twitter API</p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/qaR9wRs.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/Somii">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-4">
+					<h3><a href="#">Blog App</a></h3>
+					<p>Blog app built with Node.js, Express and Mongoose. </p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/6tC8yOM.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/BlogApp">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-4">
+					<h3><a href="#">RGB Color Game</a></h3>
+					<p>RGB colour guessing game built with vanilla Javascript</p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/rRPxvWy.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/ColourGame">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 my-4">
+					<h3><a href="#">Patatap Clone</a></h3>
+					<p>Clone of Patatap built with Paper.js and Howler.js</p>
+					<div class="img-box">
+						<img src="https://i.imgur.com/3vRZ9Zc.png" class="image">
+						<div class="overlay">
+							<div class="text"><a href="https://github.com/osasalohan/PatatapClone">View <i class="fab fa-github"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="contact" class="section">
+			<div class="mb-4 d-flex justify-content-center">
+				<h2 class="heading">contact</h2>
+				<div class="line">
+					<img src="https://i.imgur.com/j18UOJe.png" title="source: imgur.com" />
+				</div>
+			</div>
+			<div class="text-center">
+				<h3>Connect with me</h3>
+				<p>Feel free to contact me via mail or leave a message using the form below.</p>
+			</div>
+			<div class="row my-3 mx-5">
+				<div class="col-md-6 my-4">
+					<form class="form" action="https://formspree.io/mpzqqwzb" method="POST">
+						<div class="form-group">
+							<label for="email"><i class="fas fa-at"></i> Email</label>
+							<input name="email" type="text" class="form-control" id="email" required>
+						</div>
+						<div class="form-group">
+							<label for="name"><i class="fas fa-user"></i> Name</label>
+							<input name="name" type="text" class="form-control" id="name" required>
+						</div>
+						<div class="form-group">
+							<label for="message"><i class="fas fa-envelope"></i> Message</label>
+							<textarea name="message" class="form-control" placeholder="Enter a message" id="message" rows="10" required></textarea>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-dark">Submit</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 my-4">
+					<div class="p-4">
+						<h5><i class="fas fa-map-marker-alt"></i> LOCATION:</h5>
+						<P>Bedfordshire, UK</P>
+					</div>
+					<div class="p-4">
+						<h5><i class="fas fa-at"></i> EMAIL:</h5>
+						<P>cyrilalohan@gmail.com</P>
+					</div>
+					<div class="p-4">
+						<h5><i class="fas fa-phone-alt"></i> PHONE:</h5>
+						<P>07466387120</P>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<footer class="footer mt-5 mb-3 p-0">
+			<hr>
+			<p class="mb-0">© 2019 Osarumen Alohan</p>
+			<div class="social">
+				<a href="https://github.com/osasalohan"><i class="fab fa-github mx-1"></i></a>
+				<a href="https://www.linkedin.com/in/alohanosas/"><i class="fab fa-linkedin-in mx-1"></i></a>
+				<a href="https://twitter.com/tharumen"><i class="fab fa-twitter mx-1"></i></a>
+			</div>
+		</footer>
+	
+	</div>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.img-box:hover .overlay {
+  opacity: 0.5;
+  background: #363434;
+}
+
+.form .form-control {
+	padding: 12px 20px;
+}
+
+.statement h1 {
+	line-height: 1.5;
+	font-size: 40px;
+}
+
+.statement p {
+	line-height: 1.7;
+	font-size: 18px;
+}
+
+.card a{
+	text-align: center;
+}
+
+.social a {
+	color: #363434;
+}
+
+.col-md-6 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.justify-content-center h2{
+	margin-bottom: -6px;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	color: #333;
+	transition: color 0.3s;
+}
+
+.current {
+	border-bottom: 1px solid #1378DE;
+}
+
+.jumbotron {
+	background-image: url('https://i.imgur.com/jnnVEGp.png'), linear-gradient(#4373bf, #3664ad);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	height: 500px;
+	margin-bottom: 6.5rem;
+	width: 100%;
+}
+
+.welcome {
+	margin-top: 7.5em;
+}
+
+.section {
+	margin-top: 5rem;
+}
+
+.heading {
+	text-transform: uppercase;
+	/* border-bottom: 1px solid #4E49DF;
+	width: 10%; */
+}
+
+.footer {
+	text-align: center;
+}
+
+.social {
+	font-size: 1.5rem;
+}
+
+.form {
+	width: 100%;
+}
+
+.img-box {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.justify-content-center{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr + p {
+	line-height: 1;
+}
+
+h3, h3 + p {
+	text-align: center;
+}
+
+textarea {
+	width: 100%;
+}
+
+hr {
+    border-top: 1px solid #8c8b8b;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 768px) {
+	.form {
+		width: 100%;
+	}
+}
+
